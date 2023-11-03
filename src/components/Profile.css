@@ -1,0 +1,46 @@
+.btn{
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: #4676D7;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 16px;
+  min-width: 100px;
+  margin-left: 10px;
+}
+.btn:hover {
+  background: #1d49aa;
+  cursor: pointer;
+}
+
+.btn.selected {
+  outline: none;
+  box-shadow: 0 0 0 4px #cbd6ee;
+  background: #18294b;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+.toolbar{
+  margin-bottom: 10px;
+}
+.project_list{
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: column;
+  max-height: 170vh;
+  gap: 10px;
+
+}
+.deactive{
+  display: none;
+}
+img{
+  width: 200px;
+}
